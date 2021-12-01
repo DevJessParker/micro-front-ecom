@@ -6,7 +6,8 @@ import Landing from './components/Landing';
 import Pricing from './components/Pricing';
 
 export default () => {
-  return <div>
+  return (
+  <div>
     <StylesProvider>
       <BrowserRouter>
         <Switch>
@@ -16,4 +17,5 @@ export default () => {
       </BrowserRouter>
     </StylesProvider>
   </div>
+  );
 }
